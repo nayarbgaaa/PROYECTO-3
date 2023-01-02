@@ -1,0 +1,112 @@
+ERROR - 2022-12-26 11:11:21 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-12-26 11:11:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Usuarios.php(242): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->valida()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 11:15:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 11:16:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 13:16:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 16:19:05 --> getimagesize(http://localhost/proyecto/public/images/LUFFYOP.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\ThirdParty\fpdf\fpdf.php on line 1238.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(http://localhost/proyecto/public/images/LUFFYOP.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'APPPATH\\ThirdParty\\fpdf\\fpdf.php', 1238)
+ 2 APPPATH\ThirdParty\fpdf\fpdf.php(1238): getimagesize('http://localhost/proyecto/public/images/LUFFYOP.jpg')
+ 3 APPPATH\ThirdParty\fpdf\fpdf.php(885): FPDF->_parsejpg('http://localhost/proyecto/public/images/LUFFYOP.jpg')
+ 4 APPPATH\Controllers\Productos.php(265): FPDF->Image('http://localhost/proyecto/public/images/LUFFYOP.jpg', 180, 10, 25, 25, 'jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->generaProductosPdf()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:01:02 --> unlink(images/logotipo.png): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracion.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/logotipo.png): Resource temporarily unavailable', 'APPPATH\\Controllers\\Configuracion.php', 109)
+ 2 APPPATH\Controllers\Configuracion.php(109): unlink('FCPATH\\images\\logotipo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->actualizar()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:10:22 --> unlink(images/logotipo.png): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracion.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/logotipo.png): Resource temporarily unavailable', 'APPPATH\\Controllers\\Configuracion.php', 109)
+ 2 APPPATH\Controllers\Configuracion.php(109): unlink('FCPATH\\images\\logotipo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->actualizar()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:12:12 --> unlink(images/logotipo.png): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracion.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/logotipo.png): Resource temporarily unavailable', 'APPPATH\\Controllers\\Configuracion.php', 109)
+ 2 APPPATH\Controllers\Configuracion.php(109): unlink('FCPATH\\images\\logotipo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->actualizar()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:17:44 --> unlink(images/logotipo.png): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracion.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/logotipo.png): Resource temporarily unavailable', 'APPPATH\\Controllers\\Configuracion.php', 109)
+ 2 APPPATH\Controllers\Configuracion.php(109): unlink('FCPATH\\images\\logotipo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->actualizar()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:44:02 --> unlink(images/logotipo.png): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracion.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/logotipo.png): Resource temporarily unavailable', 'APPPATH\\Controllers\\Configuracion.php', 109)
+ 2 APPPATH\Controllers\Configuracion.php(109): unlink('FCPATH\\images\\logotipo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->actualizar()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:56:38 --> unlink(images/logotipo.png): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracion.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/logotipo.png): Resource temporarily unavailable', 'APPPATH\\Controllers\\Configuracion.php', 109)
+ 2 APPPATH\Controllers\Configuracion.php(109): unlink('FCPATH\\images\\logotipo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->actualizar()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

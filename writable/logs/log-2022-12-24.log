@@ -1,0 +1,56 @@
+CRITICAL - 2022-12-24 09:58:52 --> Undefined variable $nombre_producto
+in APPPATH\Views\dashboard.php on line 113.
+ 1 APPPATH\Views\dashboard.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre_producto', 'APPPATH\\Views\\dashboard.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Inicio.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 09:59:57 --> Undefined variable $nombre_producto
+in APPPATH\Views\dashboard.php on line 113.
+ 1 APPPATH\Views\dashboard.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre_producto', 'APPPATH\\Views\\dashboard.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Inicio.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 10:00:31 --> Undefined variable $nombre_producto
+in APPPATH\Views\dashboard.php on line 113.
+ 1 APPPATH\Views\dashboard.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre_producto', 'APPPATH\\Views\\dashboard.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Inicio.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 10:02:02 --> Undefined variable $nombre_producto
+in APPPATH\Views\dashboard.php on line 113.
+ 1 APPPATH\Views\dashboard.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre_producto', 'APPPATH\\Views\\dashboard.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Inicio.php(30): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 10:34:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

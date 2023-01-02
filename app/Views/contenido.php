@@ -1,0 +1,7 @@
+<div id="layoutSidenav_content">
+    <main>
+        <div class="container-fluid px-4">
+            <h1>Hola vista nueva</h1>
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@miguelxd12341/video/7035464044312022278" data-video-id="7035464044312022278" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@miguelxd12341" href="https://www.tiktok.com/@miguelxd12341">@miguelxd12341</a> Responder a @todoroki._chikito._ los perritos bailando <a title="mondongo" target="_blank" href="https://www.tiktok.com/tag/mondongo">#mondongo</a> <a title="miguelxd12341" target="_blank" href="https://www.tiktok.com/tag/miguelxd12341">#miguelxd12341</a> <a title="parati" target="_blank" href="https://www.tiktok.com/tag/parati">#parati</a> <a title="videoviral" target="_blank" href="https://www.tiktok.com/tag/videoviral">#videoviral</a> <a title="ponmeenparati" target="_blank" href="https://www.tiktok.com/tag/ponmeenparati">#ponmeenparati</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral">#viral</a> <a title="perritos" target="_blank" href="https://www.tiktok.com/tag/perritos">#perritos</a> <a target="_blank" title="♬ cómo quieres tu que te quiera cariñito - Pana Miguel 🤠" href="https://www.tiktok.com/music/cómo-quieres-tu-que-te-quiera-cariñito-7035463798861351686">♬ cómo quieres tu que te quiera cariñito - Pana Miguel 🤠</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+    </main>

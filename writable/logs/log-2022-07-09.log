@@ -1,0 +1,76 @@
+CRITICAL - 2022-07-09 00:17:11 --> unlink(images/logotipo.png): Resource temporarily unavailable
+in APPPATH\Controllers\Configuracion.php on line 109.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/logotipo.png): Resource temporarily unavailable', 'APPPATH\\Controllers\\Configuracion.php', 109)
+ 2 APPPATH\Controllers\Configuracion.php(109): unlink('FCPATH\\images\\logotipo.png')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->actualizar()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 00:25:18 --> Call to undefined method App\Models\TemporalCompraModel::porCompra
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\TemporalCompra.php(60): CodeIgniter\Model->__call('porCompra', [...])
+ 2 APPPATH\Controllers\TemporalCompra.php(51): App\Controllers\TemporalCompra->cargaProductos('62c9113a2c031')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('6', '1', '62c9113a2c031')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 02:24:41 --> Too few arguments to function App\Controllers\TemporalCompra::insertar(), 2 passed in C:\xampp\htdocs\proyecto\system\CodeIgniter.php on line 898 and exactly 3 expected
+in APPPATH\Controllers\TemporalCompra.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '62c92d2871b43')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 02:24:49 --> Too few arguments to function App\Controllers\TemporalCompra::insertar(), 2 passed in C:\xampp\htdocs\proyecto\system\CodeIgniter.php on line 898 and exactly 3 expected
+in APPPATH\Controllers\TemporalCompra.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '62c92d2871b43')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 03:18:36 --> Undefined variable $id_usuario
+in APPPATH\Controllers\Compras.php on line 49.
+ 1 APPPATH\Controllers\Compras.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\Compras.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 03:22:08 --> Undefined variable $id_usuario
+in APPPATH\Controllers\Compras.php on line 49.
+ 1 APPPATH\Controllers\Compras.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\Compras.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 03:26:26 --> Undefined variable $id_usuario
+in APPPATH\Controllers\Compras.php on line 48.
+ 1 APPPATH\Controllers\Compras.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\Compras.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 03:35:10 --> Undefined variable $id_usuario
+in APPPATH\Controllers\Compras.php on line 49.
+ 1 APPPATH\Controllers\Compras.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\Compras.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 03:40:00 --> Undefined variable $id_usuario
+in APPPATH\Controllers\Compras.php on line 49.
+ 1 APPPATH\Controllers\Compras.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_usuario', 'APPPATH\\Controllers\\Compras.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 03:45:46 --> Undefined variable $resultado
+in APPPATH\Controllers\Compras.php on line 53.
+ 1 APPPATH\Controllers\Compras.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'APPPATH\\Controllers\\Compras.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-09 03:46:12 --> Call to a member function porCompra() on null
+in APPPATH\Controllers\Compras.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->guarda()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

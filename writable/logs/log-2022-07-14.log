@@ -1,0 +1,259 @@
+CRITICAL - 2022-07-14 00:00:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:03:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:04:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:05:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 26.
+ 1 APPPATH\Views\usuarios\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:06:20 --> Undefined variable $usuarios
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:06:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:09:56 --> Undefined variable $usuarios
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:12:22 --> Undefined variable $usuarios
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:12:25 --> Undefined variable $usuarios
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:12:28 --> Undefined variable $usuarios
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:15:46 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 139.
+ 1 APPPATH\Controllers\Productos.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:16:42 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 139.
+ 1 APPPATH\Controllers\Productos.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 00:21:39 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 139.
+ 1 APPPATH\Controllers\Productos.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 01:57:30 --> Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+in APPPATH\Controllers\Productos.php on line 330.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:32:33 --> Undefined variable $hoja
+in APPPATH\Controllers\Productos.php on line 334.
+ 1 APPPATH\Controllers\Productos.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hoja', 'APPPATH\\Controllers\\Productos.php', 334)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:32:58 --> Undefined variable $hoja
+in APPPATH\Controllers\Productos.php on line 334.
+ 1 APPPATH\Controllers\Productos.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hoja', 'APPPATH\\Controllers\\Productos.php', 334)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:33:40 --> Class "App\Controllers\Xlsx" not found
+in APPPATH\Controllers\Productos.php on line 336.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:35:39 --> Class "App\Controllers\IOFactory" not found
+in APPPATH\Controllers\Productos.php on line 337.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:35:50 --> Undefined variable $writer
+in APPPATH\Controllers\Productos.php on line 338.
+ 1 APPPATH\Controllers\Productos.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $writer', 'APPPATH\\Controllers\\Productos.php', 338)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:36:14 --> Class "App\Controllers\Xlsx" not found
+in APPPATH\Controllers\Productos.php on line 336.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:37:09 --> Class "App\Controllers\Xlsx" not found
+in APPPATH\Controllers\Productos.php on line 336.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:37:41 --> Class "App\Controllers\Xlsx" not found
+in APPPATH\Controllers\Productos.php on line 337.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:37:43 --> Class "App\Controllers\Xlsx" not found
+in APPPATH\Controllers\Productos.php on line 337.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:43:27 --> Class "App\Controllers\Xlsx" not found
+in APPPATH\Controllers\Productos.php on line 336.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 02:44:06 --> Class "App\Controllers\Xlsx" not found
+in APPPATH\Controllers\Productos.php on line 336.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 03:05:48 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\ColumnDimension::setWidht()
+in APPPATH\Controllers\Productos.php on line 341.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 03:07:25 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\ColumnDimension::setWidht()
+in APPPATH\Controllers\Productos.php on line 341.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 03:38:37 --> PhpOffice\PhpSpreadsheet\Style\Style::applyFromArray(): Argument #1 ($styleArray) must be of type array, int given, called in C:\xampp\htdocs\proyecto\app\Controllers\Productos.php on line 384
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Style\Style.php on line 201.
+ 1 APPPATH\Controllers\Productos.php(384): PhpOffice\PhpSpreadsheet\Style\Style->applyFromArray(10)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 03:56:34 --> File http://localhost/proyecto/public/images/logotipo.png does not exist
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\ContentTypes.php on line 225.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\ContentTypes.php(136): PhpOffice\PhpSpreadsheet\Writer\Xlsx\ContentTypes->getImageMimeType('http://localhost/proyecto/public/images/logotipo.png')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(333): PhpOffice\PhpSpreadsheet\Writer\Xlsx\ContentTypes->writeContentTypes(Object(PhpOffice\PhpSpreadsheet\Spreadsheet), false)
+ 3 APPPATH\Controllers\Productos.php(398): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('FCPATH\\reporte_producto.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 03:56:52 --> File /images/logotipo.png not found!
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Drawing.php on line 134.
+ 1 APPPATH\Controllers\Productos.php(339): PhpOffice\PhpSpreadsheet\Worksheet\Drawing->setPath('/images/logotipo.png')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 04:47:00 --> Class "App\Controllers\Spreadsheet" not found
+in APPPATH\Controllers\Clientes.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Clientes->muestraClientesExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-14 05:00:11 --> Call to undefined method PhpOffice\PhpSpreadsheet\Writer\Xlsx::output()
+in APPPATH\Controllers\Productos.php on line 382.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraProductosExcel()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

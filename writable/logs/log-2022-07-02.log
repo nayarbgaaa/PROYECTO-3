@@ -1,0 +1,33 @@
+CRITICAL - 2022-07-02 22:18:04 --> Undefined variable $titulo
+in APPPATH\Views\configuracion\configuracion.php on line 4.
+ 1 APPPATH\Views\configuracion\configuracion.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'APPPATH\\Views\\configuracion\\configuracion.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(40): view('configuracion/configuracion')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 22:19:27 --> Undefined variable $titulo
+in APPPATH\Views\configuracion\configuracion.php on line 4.
+ 1 APPPATH\Views\configuracion\configuracion.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'APPPATH\\Views\\configuracion\\configuracion.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(40): view('configuracion/configuracion')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-02 22:19:28 --> Undefined variable $titulo
+in APPPATH\Views\configuracion\configuracion.php on line 4.
+ 1 APPPATH\Views\configuracion\configuracion.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'APPPATH\\Views\\configuracion\\configuracion.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(40): view('configuracion/configuracion')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

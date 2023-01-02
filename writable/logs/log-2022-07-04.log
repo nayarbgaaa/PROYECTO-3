@@ -1,0 +1,17 @@
+CRITICAL - 2022-07-04 00:59:24 --> Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Compras.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Compras->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 01:00:15 --> Undefined variable $titulo
+in APPPATH\Views\compras\nuevo.php on line 4.
+ 1 APPPATH\Views\compras\nuevo.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'APPPATH\\Views\\compras\\nuevo.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/nuevo', [], true)
+ 5 APPPATH\Controllers\Compras.php(35): view('compras/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

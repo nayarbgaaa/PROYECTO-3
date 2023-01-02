@@ -1,0 +1,1041 @@
+CRITICAL - 2022-07-06 00:03:45 --> Call to undefined function mysql_query()
+in APPPATH\Views\productos\productos.php on line 130.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 4 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 00:03:50 --> Call to undefined function mysql_query()
+in APPPATH\Views\productos\productos.php on line 130.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 4 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 00:56:19 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 APPPATH\Views\productos\productos.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 00:56:21 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 APPPATH\Views\productos\productos.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 00:56:32 --> Call to undefined function mysql_query()
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 4 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 00:56:51 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 APPPATH\Views\productos\productos.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 00:57:23 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 APPPATH\Views\productos\productos.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 00:57:37 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 APPPATH\Views\productos\productos.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 00:57:44 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 APPPATH\Views\productos\productos.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 00:59:38 --> Undefined variable $mysqli
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 APPPATH\Views\productos\productos.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mysqli', 'APPPATH\\Views\\productos\\productos.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 00:59:47 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 APPPATH\Views\productos\productos.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 01:00:22 --> mysqli_query() expects at least 2 arguments, 1 given
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 APPPATH\Views\productos\productos.php(124): mysqli_query('SELECT * FROM productos')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 01:00:43 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 124.
+ 1 APPPATH\Views\productos\productos.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 01:16:13 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 85.
+ 1 APPPATH\Views\productos\productos.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 01:16:47 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, array given
+in APPPATH\Views\productos\productos.php on line 85.
+ 1 APPPATH\Views\productos\productos.php(85): mysqli_query([...], 'SELECT * FROM productos')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 01:17:06 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, array given
+in APPPATH\Views\productos\productos.php on line 85.
+ 1 APPPATH\Views\productos\productos.php(85): mysqli_query([...], 'SELECT * FROM productos')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 01:19:24 --> mysqli_query() expects at least 2 arguments, 1 given
+in APPPATH\Views\productos\productos.php on line 85.
+ 1 APPPATH\Views\productos\productos.php(85): mysqli_query('SELECT * FROM productos')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 01:19:32 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 85.
+ 1 APPPATH\Views\productos\productos.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 01:26:09 --> Access denied for user 'root'@'localhost' (using password: YES)
+in APPPATH\Views\productos\productos.php on line 84.
+ 1 APPPATH\Views\productos\productos.php(84): mysqli_connect('localhost', 'root', ' ', 'pos')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 01:28:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\productos\productos.php on line 97.
+ 1 APPPATH\Views\productos\productos.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\productos\\productos.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 01:29:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\productos\productos.php on line 97.
+ 1 APPPATH\Views\productos\productos.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\productos\\productos.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 02:02:30 --> Undefined variable $conect
+in APPPATH\Views\productos\productos.php on line 81.
+ 1 APPPATH\Views\productos\productos.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conect', 'APPPATH\\Views\\productos\\productos.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 02:02:41 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 81.
+ 1 APPPATH\Views\productos\productos.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 02:03:01 --> Undefined variable $connection
+in APPPATH\Views\productos\productos.php on line 81.
+ 1 APPPATH\Views\productos\productos.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\productos\\productos.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 02:15:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\productos\productos.php on line 93.
+ 1 APPPATH\Views\productos\productos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\productos\\productos.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 02:15:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\productos\productos.php on line 93.
+ 1 APPPATH\Views\productos\productos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\productos\\productos.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 02:33:43 --> Undefined variable $ser
+in APPPATH\Views\productos\productos.php on line 84.
+ 1 APPPATH\Views\productos\productos.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ser', 'APPPATH\\Views\\productos\\productos.php', 84)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 16:20:21 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 16:20:21 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c5fc8fa80ff\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c5fc8fa80ff\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c5fc8fa80ff\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c5fc8fa80ff')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c5fc8fa80ff')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 16:28:37 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 16:28:37 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c5fc8fa80ff\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c5fc8fa80ff\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c5fc8fa80ff\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c5fc8fa80ff')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c5fc8fa80ff')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 16:51:06 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 16:51:06 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c60252a4373')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c60252a4373')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 16:51:07 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 16:51:07 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c60252a4373')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c60252a4373')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 16:51:08 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 16:51:08 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c60252a4373')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c60252a4373')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 16:51:08 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 16:51:08 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60252a4373\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c60252a4373')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c60252a4373')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 16:51:15 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 16:51:15 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c603ce79861\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c603ce79861\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c603ce79861\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c603ce79861')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c603ce79861')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 16:51:17 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 16:51:17 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c603ce79861\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c603ce79861\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c603ce79861\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c603ce79861')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c603ce79861')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 16:51:29 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 16:51:29 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c603db2cb6d\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c603db2cb6d\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c603db2cb6d\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c603db2cb6d')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c603db2cb6d')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 17:05:42 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 17:05:42 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60731de562\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60731de562\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c60731de562\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c60731de562')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c60731de562')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 17:08:43 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 17:08:43 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c607e6e5167\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c607e6e5167\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c607e6e5167\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c607e6e5167')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c607e6e5167')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 21:24:07 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 21:24:07 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c643c1da369\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c643c1da369\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c643c1da369\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c643c1da369')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c643c1da369')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 21:34:10 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 21:34:10 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c6461a26c30\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c6461a26c30\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c6461a26c30\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c6461a26c30')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c6461a26c30')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 21:36:13 --> Too few arguments to function App\Controllers\TemporalCompra::insertar(), 2 passed in C:\xampp\htdocs\proyecto\system\CodeIgniter.php on line 898 and exactly 3 expected
+in APPPATH\Controllers\TemporalCompra.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 21:37:04 --> Too few arguments to function App\Controllers\TemporalCompra::insertar(), 1 passed in C:\xampp\htdocs\proyecto\system\CodeIgniter.php on line 898 and exactly 3 expected
+in APPPATH\Controllers\TemporalCompra.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 21:37:35 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 21:37:35 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c646e8abc7a\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c646e8abc7a\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c646e8abc7a\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c646e8abc7a')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c646e8abc7a')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 21:42:01 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 21:42:01 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c647f3b9128\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c647f3b9128\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c647f3b9128\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c647f3b9128')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c647f3b9128')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 22:04:09 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 22:04:09 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c64d17576ab\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c64d17576ab\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c64d17576ab\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c64d17576ab')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c64d17576ab')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 22:04:57 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 22:04:57 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c64d17576ab\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c64d17576ab\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c64d17576ab\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c64d17576ab')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c64d17576ab')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 22:06:30 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 22:06:30 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c64db13e4cd\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c64db13e4cd\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c64db13e4cd\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c64db13e4cd')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c64db13e4cd')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 22:23:51 --> Undefined variable $producto
+in APPPATH\Views\productos\productos.php on line 98.
+ 1 APPPATH\Views\productos\productos.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'APPPATH\\Views\\productos\\productos.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 22:24:00 --> Undefined variable $productos
+in APPPATH\Views\productos\productos.php on line 98.
+ 1 APPPATH\Views\productos\productos.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Views\\productos\\productos.php', 98)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-06 22:29:16 --> mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, string given
+in APPPATH\Views\productos\productos.php on line 82.
+ 1 APPPATH\Views\productos\productos.php(82): mysqli_fetch_array('SELECT * FROM productos')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 23:48:24 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 23:48:24 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c6658df3f0a\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c6658df3f0a\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c6658df3f0a\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c6658df3f0a')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c6658df3f0a')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 23:49:54 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 23:49:54 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c665cfcffd5\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c665cfcffd5\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c665cfcffd5\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c665cfcffd5')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c665cfcffd5')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 23:50:28 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 23:50:28 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c665cfcffd5\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c665cfcffd5\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c665cfcffd5\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c665cfcffd5')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c665cfcffd5')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 23:51:03 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 23:51:03 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666329bd89\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666329bd89\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666329bd89\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c666329bd89')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c666329bd89')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 23:51:23 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 23:51:23 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666466ddc2\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666466ddc2\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666466ddc2\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c666466ddc2')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c666466ddc2')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 23:51:50 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 23:51:50 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666630ecc9\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666630ecc9\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666630ecc9\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c666630ecc9')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c666630ecc9')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 23:51:53 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 23:51:53 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666630ecc9\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666630ecc9\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666630ecc9\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c666630ecc9')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c666630ecc9')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 23:52:59 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 23:52:59 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666a50e7f1\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666a50e7f1\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c666a50e7f1\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c666a50e7f1')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c666a50e7f1')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-06 23:58:15 --> Unknown column 'folio' in 'where clause'
+CRITICAL - 2022-07-06 23:58:15 --> Unknown column 'folio' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c667e26eb6a\'
+AND `id_producto` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c667e26eb6a\'
+AND `id_producto` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = \'62c667e26eb6a\'
+AND `id_producto` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `temporal_compra`
+WHERE `folio` = :folio:
+AND `id_producto` = :id_producto:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TemporalCompraModel.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\TemporalCompra.php(26): App\Models\TemporalCompraModel->porIdProductoCompra('5', '62c667e26eb6a')
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\TemporalCompra->insertar('5', '1', '62c667e26eb6a')
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemporalCompra))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

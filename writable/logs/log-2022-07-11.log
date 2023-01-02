@@ -1,0 +1,518 @@
+CRITICAL - 2022-07-11 00:04:56 --> Undefined variable $pdf
+in APPPATH\Controllers\Compras.php on line 96.
+ 1 APPPATH\Controllers\Compras.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pdf', 'APPPATH\\Controllers\\Compras.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->generaCompraPdf('3')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 01:04:51 --> Call to undefined function App\Controllers\SetFont()
+in APPPATH\Controllers\Compras.php on line 120.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->generaCompraPdf('3')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 14:59:19 --> Undefined variable $datos
+in APPPATH\Views\compras\compras.php on line 25.
+ 1 APPPATH\Views\compras\compras.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\compras\\compras.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:00:12 --> Undefined variable $datos
+in APPPATH\Views\compras\compras.php on line 25.
+ 1 APPPATH\Views\compras\compras.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\compras\\compras.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:01:30 --> Undefined variable $datos
+in APPPATH\Views\compras\compras.php on line 25.
+ 1 APPPATH\Views\compras\compras.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\compras\\compras.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:01:32 --> Undefined variable $datos
+in APPPATH\Views\compras\compras.php on line 25.
+ 1 APPPATH\Views\compras\compras.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\compras\\compras.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:01:45 --> Undefined variable $datos
+in APPPATH\Views\compras\compras.php on line 25.
+ 1 APPPATH\Views\compras\compras.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\compras\\compras.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:05:43 --> Undefined variable $datos
+in APPPATH\Views\compras\compras.php on line 25.
+ 1 APPPATH\Views\compras\compras.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\compras\\compras.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:07:15 --> Unmatched '}'
+in APPPATH\Views\compras\compras.php on line 44.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 3 APPPATH\Controllers\Compras.php(31): view('compras/compras', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:07:25 --> Undefined variable $dato
+in APPPATH\Views\compras\compras.php on line 34.
+ 1 APPPATH\Views\compras\compras.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\compras\\compras.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\compras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/compras', [], true)
+ 5 APPPATH\Controllers\Compras.php(31): view('compras/compras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:39:53 --> Undefined variable $compra
+in APPPATH\Views\productos\productos.php on line 10.
+ 1 APPPATH\Views\productos\productos.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $compra', 'APPPATH\\Views\\productos\\productos.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:40:32 --> Undefined variable $dato
+in APPPATH\Views\productos\productos.php on line 10.
+ 1 APPPATH\Views\productos\productos.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Views\\productos\\productos.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(46): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:43:13 --> Too few arguments to function App\Controllers\Compras::muestraCompraPdf(), 0 passed in C:\xampp\htdocs\proyecto\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Compras.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->muestraCompraPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:45:33 --> Too few arguments to function App\Controllers\Compras::muestraCompraPdf(), 0 passed in C:\xampp\htdocs\proyecto\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Compras.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->muestraCompraPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:46:13 --> Too few arguments to function App\Controllers\Compras::muestraCompraPdf(), 0 passed in C:\xampp\htdocs\proyecto\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Compras.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->muestraCompraPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:46:21 --> Too few arguments to function App\Controllers\Productos::muestraCompraPdf(), 0 passed in C:\xampp\htdocs\proyecto\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Productos.php on line 201.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:46:50 --> Undefined variable $activo
+in APPPATH\Controllers\Productos.php on line 203.
+ 1 APPPATH\Controllers\Productos.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activo', 'APPPATH\\Controllers\\Productos.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:47:08 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 203.
+ 1 APPPATH\Controllers\Productos.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:47:34 --> Undefined variable $data
+in APPPATH\Controllers\Productos.php on line 204.
+ 1 APPPATH\Controllers\Productos.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Productos.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:48:55 --> Undefined variable $id_compra
+in APPPATH\Views\compras\ver_compra_pdf.php on line 6.
+ 1 APPPATH\Views\compras\ver_compra_pdf.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'APPPATH\\Views\\compras\\ver_compra_pdf.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\ver_compra_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/ver_compra_pdf', [], true)
+ 5 APPPATH\Controllers\Productos.php(208): view('compras/ver_compra_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:49:08 --> Undefined variable $id_compra
+in APPPATH\Views\compras\ver_compra_pdf.php on line 6.
+ 1 APPPATH\Views\compras\ver_compra_pdf.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'APPPATH\\Views\\compras\\ver_compra_pdf.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\ver_compra_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/ver_compra_pdf', [], true)
+ 5 APPPATH\Controllers\Productos.php(207): view('compras/ver_compra_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:49:44 --> Undefined variable $id_compra
+in APPPATH\Views\compras\ver_compra_pdf.php on line 6.
+ 1 APPPATH\Views\compras\ver_compra_pdf.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'APPPATH\\Views\\compras\\ver_compra_pdf.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\ver_compra_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/ver_compra_pdf', [], true)
+ 5 APPPATH\Controllers\Productos.php(207): view('compras/ver_compra_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:50:04 --> Undefined variable $id_compra
+in APPPATH\Views\compras\ver_compra_pdf.php on line 6.
+ 1 APPPATH\Views\compras\ver_compra_pdf.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'APPPATH\\Views\\compras\\ver_compra_pdf.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\ver_compra_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/ver_compra_pdf', [], true)
+ 5 APPPATH\Controllers\Productos.php(207): view('compras/ver_compra_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:50:25 --> Undefined variable $id_compra
+in APPPATH\Views\compras\ver_compra_pdf.php on line 6.
+ 1 APPPATH\Views\compras\ver_compra_pdf.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'APPPATH\\Views\\compras\\ver_compra_pdf.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\ver_compra_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/ver_compra_pdf', [], true)
+ 5 APPPATH\Controllers\Productos.php(207): view('compras/ver_compra_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:50:54 --> Undefined variable $id_compra
+in APPPATH\Views\compras\ver_compra_pdf.php on line 6.
+ 1 APPPATH\Views\compras\ver_compra_pdf.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'APPPATH\\Views\\compras\\ver_compra_pdf.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\ver_compra_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/ver_compra_pdf', [], true)
+ 5 APPPATH\Controllers\Productos.php(207): view('compras/ver_compra_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:51:47 --> Too few arguments to function App\Controllers\Productos::generaCompraPdf(), 0 passed in C:\xampp\htdocs\proyecto\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Productos.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->generaCompraPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:52:42 --> Undefined variable $nombreTienda
+in APPPATH\Controllers\Productos.php on line 232.
+ 1 APPPATH\Controllers\Productos.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombreTienda', 'APPPATH\\Controllers\\Productos.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->generaCompraPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 15:59:37 --> Undefined variable $datos
+in APPPATH\Controllers\Productos.php on line 266.
+ 1 APPPATH\Controllers\Productos.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Controllers\\Productos.php', 266)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->generaCompraPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 16:02:02 --> Undefined variable $datos
+in APPPATH\Controllers\Productos.php on line 268.
+ 1 APPPATH\Controllers\Productos.php(268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Controllers\\Productos.php', 268)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->generaCompraPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 16:08:46 --> Undefined variable $activo
+in APPPATH\Controllers\Productos.php on line 203.
+ 1 APPPATH\Controllers\Productos.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activo', 'APPPATH\\Controllers\\Productos.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->muestraCompraPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 16:29:55 --> Undefined variable $activo
+in APPPATH\Controllers\Productos.php on line 219.
+ 1 APPPATH\Controllers\Productos.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activo', 'APPPATH\\Controllers\\Productos.php', 219)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->generaCompraPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 17:18:34 --> Call to a member function select() on null
+in APPPATH\Controllers\Clientes.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Clientes->generaCompraPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 17:32:47 --> Undefined array key "ID"
+in APPPATH\Controllers\Clientes.php on line 221.
+ 1 APPPATH\Controllers\Clientes.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', 'APPPATH\\Controllers\\Clientes.php', 221)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Clientes->generaClientesPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 18:34:19 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 142.
+ 1 APPPATH\Controllers\Productos.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 18:36:19 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 130.
+ 1 APPPATH\Controllers\Productos.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 18:44:57 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 151.
+ 1 APPPATH\Controllers\Productos.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 18:47:01 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 151.
+ 1 APPPATH\Controllers\Productos.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 18:48:04 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 151.
+ 1 APPPATH\Controllers\Productos.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 18:51:32 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 151.
+ 1 APPPATH\Controllers\Productos.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 19:09:11 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 142.
+ 1 APPPATH\Controllers\Productos.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 19:18:48 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 151.
+ 1 APPPATH\Controllers\Productos.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 19:19:32 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 151.
+ 1 APPPATH\Controllers\Productos.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 19:20:21 --> Undefined variable $dato
+in APPPATH\Controllers\Productos.php on line 151.
+ 1 APPPATH\Controllers\Productos.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Controllers\\Productos.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 19:33:35 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 127.
+ 1 APPPATH\Controllers\Productos.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 19:35:07 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 19:35:20 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 19:40:31 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 19:49:56 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 19:54:36 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Productos.php on line 143.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Productos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Productos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Productos')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Productos', true)
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 20:00:26 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 20:00:46 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 20:07:55 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 20:08:45 --> syntax error, unexpected variable "$validacion"
+in APPPATH\Controllers\Productos.php on line 141.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Productos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Productos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Productos')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Productos', true)
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 20:08:56 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 139.
+ 1 APPPATH\Controllers\Productos.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 20:09:55 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 20:11:12 --> Undefined variable $dato
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 20:11:43 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 20:54:56 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 20:55:11 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 21:00:39 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 21:17:19 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 21:21:23 --> Undefined variable $id
+in APPPATH\Controllers\Productos.php on line 148.
+ 1 APPPATH\Controllers\Productos.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Productos.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 21:34:43 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 139.
+ 1 APPPATH\Controllers\Productos.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 21:35:03 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 139.
+ 1 APPPATH\Controllers\Productos.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-11 22:46:27 --> Undefined variable $id_compra
+in APPPATH\Views\ventas\caja.php on line 22.
+ 1 APPPATH\Views\ventas\caja.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_compra', 'APPPATH\\Views\\ventas\\caja.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ventas\\caja.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ventas/caja', [], true)
+ 5 APPPATH\Controllers\Ventas.php(38): view('ventas/caja')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->venta()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

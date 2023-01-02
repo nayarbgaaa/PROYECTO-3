@@ -1,0 +1,56 @@
+CRITICAL - 2022-07-10 01:23:10 --> Call to undefined method FPDF::AppPage()
+in APPPATH\Controllers\Compras.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->generaCompraPdf('1')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-10 01:23:54 --> Undefined variable $odf
+in APPPATH\Controllers\Compras.php on line 96.
+ 1 APPPATH\Controllers\Compras.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $odf', 'APPPATH\\Controllers\\Compras.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->generaCompraPdf('1')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-10 22:50:37 --> Class "App\Controllers\FPDF" not found
+in APPPATH\Controllers\Compras.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->generaCompraPdf('3')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-10 23:11:38 --> Undefined variable $titulo
+in APPPATH\Views\compras\ver_compra_pdf.php on line 4.
+ 1 APPPATH\Views\compras\ver_compra_pdf.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'APPPATH\\Views\\compras\\ver_compra_pdf.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\compras\\ver_compra_pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('compras/ver_compra_pdf', [], true)
+ 5 APPPATH\Controllers\Compras.php(80): view('compras/ver_compra_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->muestraCompraPdf('3')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-10 23:26:47 --> Class "App\Controllers\fpdf" not found
+in APPPATH\Controllers\Compras.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->generaCompraPdf('3')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-10 23:27:03 --> Class "fpdf" not found
+in APPPATH\Controllers\Compras.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->generaCompraPdf('3')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-10 23:46:09 --> Class "FPDF" not found
+in APPPATH\Controllers\Compras.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->generaCompraPdf('3')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-10 23:51:37 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Controllers\Compras.php on line 93.
+ 1 APPPATH\Controllers\Compras.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'APPPATH\\Controllers\\Compras.php', 93)
+ 2 APPPATH\Controllers\Compras.php(93): require()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Compras->generaCompraPdf('3')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

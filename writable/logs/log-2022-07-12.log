@@ -1,0 +1,212 @@
+CRITICAL - 2022-07-12 00:38:29 --> Undefined property: App\Controllers\Ventas::$compras
+in APPPATH\Controllers\Ventas.php on line 49.
+ 1 APPPATH\Controllers\Ventas.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Ventas::$compras', 'APPPATH\\Controllers\\Ventas.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 00:38:37 --> Undefined property: App\Controllers\Ventas::$compras
+in APPPATH\Controllers\Ventas.php on line 49.
+ 1 APPPATH\Controllers\Ventas.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Ventas::$compras', 'APPPATH\\Controllers\\Ventas.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 00:39:08 --> Undefined property: App\Controllers\Ventas::$compras
+in APPPATH\Controllers\Ventas.php on line 49.
+ 1 APPPATH\Controllers\Ventas.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Ventas::$compras', 'APPPATH\\Controllers\\Ventas.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 00:40:08 --> Undefined property: App\Controllers\Ventas::$compras
+in APPPATH\Controllers\Ventas.php on line 49.
+ 1 APPPATH\Controllers\Ventas.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Ventas::$compras', 'APPPATH\\Controllers\\Ventas.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->guarda()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-12 00:54:44 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-07-12 00:54:44 --> Column 'id_usuario' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ventas` (`folio`, `total`, `id_usuario`, `id_caja`, `id_cliente`, `forma_pago`, `fecha_alta`) VALUES (\'62cd095aeb4f5\', \'24.00\', NULL, NULL, \'1\', \'Selecciona una opcion\', \'2022-07-12 00:54:44\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ventas` (`folio`, `total`, `id_usuario`, `id_caja`, `id_cliente`, `forma_pago`, `fecha_alta`) VALUES (\'62cd095aeb4f5\', \'24.00\', NULL, NULL, \'1\', \'Selecciona una opcion\', \'2022-07-12 00:54:44\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ventas` (`folio`, `total`, `id_usuario`, `id_caja`, `id_cliente`, `forma_pago`, `fecha_alta`) VALUES (\'62cd095aeb4f5\', \'24.00\', NULL, NULL, \'1\', \'Selecciona una opcion\', \'2022-07-12 00:54:44\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ventas` (`folio`, `total`, `id_usuario`, `id_caja`, `id_cliente`, `forma_pago`, `fecha_alta`) VALUES (:folio:, :total:, :id_usuario:, :id_caja:, :id_cliente:, :forma_pago:, :fecha_alta:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\VentasModel.php(33): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Ventas.php(52): App\Models\VentasModel->insertaVenta('62cd095aeb4f5', '24.00', null, null, '1', 'Selecciona una opcion')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->guarda()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-12 00:56:18 --> Column 'id_usuario' cannot be null
+CRITICAL - 2022-07-12 00:56:18 --> Column 'id_usuario' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ventas` (`folio`, `total`, `id_usuario`, `id_caja`, `id_cliente`, `forma_pago`, `fecha_alta`) VALUES (\'62cd0cf31a3f0\', \'24.00\', NULL, NULL, \'1\', \'Selecciona una opcion\', \'2022-07-12 00:56:18\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ventas` (`folio`, `total`, `id_usuario`, `id_caja`, `id_cliente`, `forma_pago`, `fecha_alta`) VALUES (\'62cd0cf31a3f0\', \'24.00\', NULL, NULL, \'1\', \'Selecciona una opcion\', \'2022-07-12 00:56:18\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ventas` (`folio`, `total`, `id_usuario`, `id_caja`, `id_cliente`, `forma_pago`, `fecha_alta`) VALUES (\'62cd0cf31a3f0\', \'24.00\', NULL, NULL, \'1\', \'Selecciona una opcion\', \'2022-07-12 00:56:18\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ventas` (`folio`, `total`, `id_usuario`, `id_caja`, `id_cliente`, `forma_pago`, `fecha_alta`) VALUES (:folio:, :total:, :id_usuario:, :id_caja:, :id_cliente:, :forma_pago:, :fecha_alta:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\VentasModel.php(33): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Ventas.php(52): App\Models\VentasModel->insertaVenta('62cd0cf31a3f0', '24.00', null, null, '1', 'Selecciona una opcion')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->guarda()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 01:35:37 --> Undefined property: App\Controllers\Ventas::$compras
+in APPPATH\Controllers\Ventas.php on line 88.
+ 1 APPPATH\Controllers\Ventas.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Ventas::$compras', 'APPPATH\\Controllers\\Ventas.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->generaTicket('3')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 01:37:27 --> Undefined property: App\Controllers\Ventas::$configuracion
+in APPPATH\Controllers\Ventas.php on line 91.
+ 1 APPPATH\Controllers\Ventas.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Ventas::$configuracion', 'APPPATH\\Controllers\\Ventas.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->generaTicket('3')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 01:37:57 --> Undefined variable $datosCompra
+in APPPATH\Controllers\Ventas.php on line 114.
+ 1 APPPATH\Controllers\Ventas.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosCompra', 'APPPATH\\Controllers\\Ventas.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->generaTicket('3')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 01:57:47 --> Undefined variable $contador
+in APPPATH\Controllers\Ventas.php on line 151.
+ 1 APPPATH\Controllers\Ventas.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contador', 'APPPATH\\Controllers\\Ventas.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->generaTicket('3')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 02:17:34 --> FPDF error: The document is closed
+in APPPATH\ThirdParty\fpdf\fpdf.php on line 271.
+ 1 APPPATH\ThirdParty\fpdf\fpdf.php(1450): FPDF->Error('The document is closed')
+ 2 APPPATH\ThirdParty\fpdf\fpdf.php(519): FPDF->_out('BT /F1 8.00 Tf ET')
+ 3 APPPATH\Controllers\Ventas.php(150): FPDF->SetFont('helvetica', 'B', 8)
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->generaTicket('3')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:19:50 --> Undefined property: App\Controllers\Ventas::$compras
+in APPPATH\Controllers\Ventas.php on line 26.
+ 1 APPPATH\Controllers\Ventas.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Ventas::$compras', 'APPPATH\\Controllers\\Ventas.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->index()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-07-12 03:21:32 --> Unknown column 'ventas.fecha' in 'order clause'
+CRITICAL - 2022-07-12 03:21:32 --> Unknown column 'ventas.fecha' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ventas`.*, `u`.`usuario` AS `cajero`, `c`.`nombre` AS `cliente`
+FROM `ventas`
+JOIN `usuarios` AS `u` ON `ventas`.`id_usuario` = `u`.`id`
+JOIN `clientes` AS `c` ON `ventas`.`id_cliente` = `c`.`id`
+WHERE `ventas`.`activo` = 1
+ORDER BY `ventas`.`fecha` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ventas`.*, `u`.`usuario` AS `cajero`, `c`.`nombre` AS `cliente`
+FROM `ventas`
+JOIN `usuarios` AS `u` ON `ventas`.`id_usuario` = `u`.`id`
+JOIN `clientes` AS `c` ON `ventas`.`id_cliente` = `c`.`id`
+WHERE `ventas`.`activo` = 1
+ORDER BY `ventas`.`fecha` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ventas`.*, `u`.`usuario` AS `cajero`, `c`.`nombre` AS `cliente`
+FROM `ventas`
+JOIN `usuarios` AS `u` ON `ventas`.`id_usuario` = `u`.`id`
+JOIN `clientes` AS `c` ON `ventas`.`id_cliente` = `c`.`id`
+WHERE `ventas`.`activo` = 1
+ORDER BY `ventas`.`fecha` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ventas`.*, `u`.`usuario` AS `cajero`, `c`.`nombre` AS `cliente`
+FROM `ventas`
+JOIN `usuarios` AS `u` ON `ventas`.`id_usuario` = `u`.`id`
+JOIN `clientes` AS `c` ON `ventas`.`id_cliente` = `c`.`id`
+WHERE `ventas`.`activo` = :ventas.activo:
+ORDER BY `ventas`.`fecha` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\VentasModel.php(45): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Ventas.php(26): App\Models\VentasModel->obtener(1)
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->index()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:22:25 --> Invalid file: ventas/ventas.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ventas/ventas.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ventas/ventas', [], true)
+ 3 APPPATH\Controllers\Ventas.php(30): view('ventas/ventas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 03:24:17 --> Undefined array key "nombre"
+in APPPATH\Views\ventas\ventas.php on line 46.
+ 1 APPPATH\Views\ventas\ventas.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\ventas\\ventas.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ventas\\ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ventas/ventas', [], true)
+ 5 APPPATH\Controllers\Ventas.php(30): view('ventas/ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Ventas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 04:26:02 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Views\productos\productos.php on line 104.
+ 1 APPPATH\Views\productos\productos.php(104): array_push(null, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(48): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 04:28:17 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Views\productos\productos.php on line 104.
+ 1 APPPATH\Views\productos\productos.php(104): array_push(null, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('productos/productos', [], true)
+ 5 APPPATH\Controllers\Productos.php(48): view('productos/productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 08:54:26 --> Undefined variable $productos
+in APPPATH\Controllers\Productos.php on line 139.
+ 1 APPPATH\Controllers\Productos.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Productos.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 09:04:12 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 09:04:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(177): view('usuarios/editar', [...])
+ 6 APPPATH\Controllers\Usuarios.php(200): App\Controllers\Usuarios->editar(null, Object(CodeIgniter\Validation\Validation))
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Usuarios->actualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
