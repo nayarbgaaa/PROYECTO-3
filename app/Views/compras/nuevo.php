@@ -7,7 +7,11 @@
             <br>
 
             <form method="POST" id="form_compra" name="form_compra" action="<?php echo base_url(); ?>/compras/guarda" autocomplete="off" >
-            
+            <br> 
+            <div class="card">
+                <h1 style="font-family: 'Rubik Bubbles', cursive;">NUEVA COMPRA</h1>
+            <div class="card-body" style="background-color: rgb(206, 147, 216);">
+
                 <div class="form-group">
                     <div class="row">
                         <div class="col-12 col-sm-4">
@@ -31,11 +35,7 @@
                         </div>
 
                     </div>
-                </div>
-
-                <br>
-
-                <div class="form-group">
+                    <div class="form-group">
                     <div class="row">
                         <div class="col-12 col-sm-4">
                             <label>Precio de compra</label>
@@ -53,13 +53,20 @@
                         </div>
                     </div>
                 </div>
+                </div>
+                </div>
+                </div>
+
+                <br>
+
+                
 
                 <br>
                 
-                <div class="row">
+                <div class="row" >
                     <table id="tablaProductos" width="100%" class="table table-responsive table-striped table-hover table-sm tablaProductos ">
                     <thead class="table-dark" >
-                        <tr>
+                        <tr ">
                             <th>#</th>
                             <th>Codigo</th>
                             <th>Nombre</th>

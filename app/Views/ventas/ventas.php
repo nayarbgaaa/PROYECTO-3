@@ -11,7 +11,7 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                          <li class="nav-item">
-                            <a href="<?php echo base_url(); ?>/ventas/eliminados" class="btn btn-info">Eliminados</a>
+                            <a href="<?php echo base_url(); ?>/ventas/eliminados" class="btn btn-info"><i class="bi bi-file-earmark-x-fill"></i> Eliminados</a>
                         </li>
                     </ul>
                     

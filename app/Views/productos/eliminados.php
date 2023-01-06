@@ -59,8 +59,8 @@
                     <p>¿Desea restaurar este producto?</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                    <a  class="btn btn-success btn-ok">Confirmar</a>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-check-all"></i> Cancelar</button>
+                    <a  class="btn btn-success btn-ok"> <i class="bi bi-check-all"></i> Confirmar</a>
                 </div>
             </div>
         </div>

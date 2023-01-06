@@ -11,10 +11,10 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a href="<?php echo base_url(); ?>/productos/nuevo" class="btn btn-success me-2">Agregar</a>
+                            <a href="<?php echo base_url(); ?>/productos/nuevo" class="btn btn-success me-2" ><i class="bi bi-check-all"></i> Agregar</a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo base_url(); ?>/productos/eliminados" class="btn btn-info me-2">Agotados</a>
+                            <a href="<?php echo base_url(); ?>/productos/eliminados" class="btn btn-info me-2"><i class="bi bi-folder-minus"></i> Agotados</a>
                         </li>
                         
                     </ul>
@@ -57,7 +57,7 @@
                                 <a href="<?php echo base_url(); ?>/productos/editar/<?php echo $dato['id']; ?>" class="btn btn-warning"><i class="fa-solid fa-square-pen"></i> &nbsp Editar</a>
                                 &nbsp
                                 <!--BORRAR-->
-                                <a href="#" data-href="<?php echo base_url(); ?>/productos/eliminar/<?php echo $dato['id']; ?>" data-bs-toggle="modal" data-bs-target="#modal-confirma"  title="Eliminar registro" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i> &nbsp Agotar</a>
+                                <a href="#" data-href="<?php echo base_url(); ?>/productos/eliminar/<?php echo $dato['id']; ?>" data-bs-toggle="modal" data-bs-target="#modal-confirma"  title="Eliminar registro" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i> &nbsp Eliminar</a>
                             </td>
                         </tr>
 

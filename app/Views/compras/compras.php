@@ -5,7 +5,7 @@
 
             <div>
                 <p>
-                    <a href="<?php echo base_url(); ?>/compras/eliminados" class="btn btn-info">Eliminados</a>
+                    <a href="<?php echo base_url(); ?>/compras/eliminados" class="btn btn-info"><i class="bi bi-file-earmark-x-fill"></i> Eliminados</a>
                 </p>
             </div>
             

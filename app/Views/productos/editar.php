@@ -105,8 +105,8 @@
 
             <br>
 
-            <a href="<?php echo base_url(); ?>/productos" class="btn btn-primary">Regresar</a>
-            <button type="submit" class="btn btn-success">Guardar</button>
+            <a href="<?php echo base_url(); ?>/productos" class="btn btn-primary"><i class="bi bi-check-all"></i> Regresar</a>
+            <button type="submit" class="btn btn-success"> <i class="bi bi-check-all"></i> Guardar</button>
 
             </form>
         </div>

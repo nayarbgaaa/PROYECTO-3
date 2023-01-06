@@ -5,8 +5,8 @@
 
             <div>
                 <p>
-                    <a href="<?php echo base_url(); ?>/categorias/nuevo" class="btn btn-success">Agregar</a>
-                    <a href="<?php echo base_url(); ?>/categorias/eliminados" class="btn btn-info">Eliminados</a>
+                    <a href="<?php echo base_url(); ?>/categorias/nuevo" class="btn btn-success"><i class="bi bi-arrow-down-up"></i> Agregar</a>
+                    <a href="<?php echo base_url(); ?>/categorias/eliminados" class="btn btn-info"><i class="bi bi-file-earmark-x-fill"></i> Eliminados</a>
                 </p>
             </div>
             

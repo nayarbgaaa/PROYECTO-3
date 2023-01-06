@@ -11,10 +11,10 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a href="<?php echo base_url(); ?>/clientes/nuevo" class="btn btn-success me-2">Agregar</a>
+                            <a href="<?php echo base_url(); ?>/clientes/nuevo" class="btn btn-success me-2"><i class="bi bi-arrow-down-up"></i> Agregar</a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo base_url(); ?>/clientes/eliminados" class="btn btn-info">Eliminados</a>
+                            <a href="<?php echo base_url(); ?>/clientes/eliminados" class="btn btn-info"><i class="bi bi-file-earmark-x-fill"></i> Eliminados</a>
                         </li>
                     </ul>
                     </div>

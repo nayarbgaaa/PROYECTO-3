@@ -43,8 +43,8 @@
 
             <br>
 
-            <a href="<?php echo base_url(); ?>/clientes" class="btn btn-primary">Regresar</a>
-            <button type="submit" class="btn btn-success">Guardar</button>
+            <a href="<?php echo base_url(); ?>/clientes" class="btn btn-primary"><i class="bi bi-arrow-90deg-left"></i>Regresar</a>
+            <button type="submit" class="btn btn-success"><i class="bi bi-check-all"></i> Guardar</button>
 
             </form>
         </div>

@@ -11,7 +11,7 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                          <li class="nav-item">
-                            <a href="<?php echo base_url(); ?>/ventas" class="btn btn-success">Regresar</a>
+                            <a href="<?php echo base_url(); ?>/ventas" class="btn btn-success"><i class="bi bi-arrow-90deg-left"></i> Regresar</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">

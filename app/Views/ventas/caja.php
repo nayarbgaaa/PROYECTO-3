@@ -57,7 +57,7 @@
             <br>
 
             <div class="form-group">
-                <button type="button" id="completa_venta" class="btn btn-success">Completar venta</button>
+                <button type="button" id="completa_venta" class="btn btn-success"><i class="bi bi-check-all"></i> Completar venta</button>
             </div>
 
             <br>
