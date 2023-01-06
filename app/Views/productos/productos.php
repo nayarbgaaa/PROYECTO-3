@@ -34,7 +34,7 @@
                         <th>Precio</th>
                         <th>Ventas</th>
                         <th>Existencias</th>
-
+                        <th>Fecha de Vencimiento</th>
                         <th>ACCIONES</th>
                     </tr>
                 </thead>
@@ -50,6 +50,7 @@
                             <td><?php echo $dato['precio_venta']; ?></td>
                             <td><?php echo $dato['ventas']; ?></td>
                             <td><?php echo $dato['existencias']; ?></td>
+                            <td><?php echo $dato['fechavencimiento']; ?></td>
                             
                             <td>
                                 <!--EDITAR-->

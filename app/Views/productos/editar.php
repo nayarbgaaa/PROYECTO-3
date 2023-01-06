@@ -96,6 +96,10 @@
                         <input class="form-control" type="file" id="img_producto" name="img_producto" accept="image/png/jpg">
                         <p class="text-success">Cargar imagen en formato jpg</p>
                     </div>
+                    <div class="col-12 col-sm-6">
+                        <label>Fecha de Vencimiento:</label>
+                        <input id="fechavencimiento" value="<?php echo $productos['fechavencimiento']; ?>" class="form-control" type="text" name="fechavencimiento" required />
+                    </div>
                 </div>
             </div>
 

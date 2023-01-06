@@ -78,7 +78,8 @@ class Productos extends BaseController
                     'stock_minimo' => $this->request->getPost('stock_minimo'),
                     'inventariable' => $this->request->getPost('inventariable'),
                     'id_unidad' => $this->request->getPost('id_unidad'),
-                    'id_categoria' => $this->request->getPost('id_categoria')
+                    'id_categoria' => $this->request->getPost('id_categoria'),
+                    'fechavencimiento' => $this->request->getPost('fechavencimiento')
                 ]);
 
                 $id = $this->productos->insertID();
@@ -137,6 +138,7 @@ class Productos extends BaseController
             'inventariable' => $this->request->getPost('inventariable'),
             'id_unidad'     => $this->request->getPost('id_unidad'),
             'id_categoria'  => $this->request->getPost('id_categoria'),
+            'fechavencimiento' => $this->request->getPost('fechavencimiento')
         ]);
 
         $id = 'id';
